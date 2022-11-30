@@ -20,6 +20,7 @@ export default function Home() {
 
 
                 <div className={styles.grid}>
+
                     <a href="/scan" className={styles.card}>
                         <h2>Scan a qr code&rarr;</h2>
                         <p>Scan a qr code with your camera</p>
@@ -29,9 +30,6 @@ export default function Home() {
                         <h2> Generate a qr code&rarr;</h2>
                         <p> Generate a qr code with text or a link</p>
                     </a>
-
-
-
 
                 </div>
             </main>
